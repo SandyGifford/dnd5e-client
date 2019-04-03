@@ -11,6 +11,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var DnD5e = __importStar(require("dnd5e"));
-var ClientEndpoints = new DnD5e.Endpoints(fetch, "dnd5e");
+var ClientEndpoints = new DnD5e.Endpoints(fetch.bind(window), "dnd5e");
 exports.ClientEndpoints = ClientEndpoints;
 __export(require("dnd5e"));
