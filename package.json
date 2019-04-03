@@ -1,0 +1,16 @@
+{
+  "name": "dnd5e-client",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "watch": "tsc -w"
+  },
+  "author": "Sandy Gifford <sandyDoesNPM@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dnd5e": "^1.0.1",
+    "typescript": "^3.4.1"
+  }
+}
